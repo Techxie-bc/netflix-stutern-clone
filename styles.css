@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.firstPage {
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 10px solid grey;
+  border-bottom: 10px solid grey;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.logo {
+  color: #e50914;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.navbtn {
+  background-color: #e50914;
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.landingStory {
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.landingStory h1 {
+  font-size: 3.125rem;
+}
+.landingStory h2 {
+  font-size: 1.625rem;
+}
+.email h3 {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+.email input {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  height: 60px !important;
+  min-width: 450px;
+  outline: none;
+  border: none;
+  padding: 0 20px;
+}
+.emailbtn {
+  background-color: #e50914;
+  font-size: 1.625rem;
+  color: white;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  padding-bottom: 40px;
+  margin-left: -3px;
+}
+/* second page */
+.secondPage,
+.thirdPage,
+.fourthPage,
+.fifthPage,
+.footer {
+  background-color: black;
+  width: 100vw;
+  border-top: 10px solid grey;
+}
+.secondPageContainer,
+.thirdPageContainer,
+.fifthPageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  padding: 20px;
+  text-align: left;
+}
+.text h1 {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: #fff;
+  letter-spacing: 0 !important;
+  font-weight: 500;
+  margin: 0 0 0.4em;
+  font-size: 3.125rem;
+
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.text h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-top: 2.5rem;
+}
+.fourthPageContainer {
+  padding: 100px;
+}
+/* accordion */
+
+.seventhPage {
+  background: black;
+  border-top: 10px solid grey;
+  width: 100vw;
+  padding-bottom: 50px;
+}
+.pageAccordion {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.accordiontitle {
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.accordiontitle h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.contentAnswer {
+  display: none;
+  background-color: #303030;
+}
+.contentBody.active .contentAnswer {
+  display: block;
+  animation: fade 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.contentBody.active .icon-right {
+  display: none;
+}
+.detailed {
+  outline: none;
+  border: transparent;
+  background: transparent;
+}
+.detailed .icon-up {
+  display: none;
+}
+.contentBody.active .icon-up {
+  display: block;
+}
+.contentAnswer p {
+  color: white;
+  font-size: 16px;
+  padding: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.contents {
+  padding: 50px 0;
+}
+.contentBody {
+  margin: 10px 0;
+  width: 800px;
+}
+.contentTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  font-weight: 400;
+  margin-bottom: 3px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  background-color: #303030;
+}
+.contentTitle p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.contentTitle i {
+  color: #fff;
+}
+.footerContainer {
+  padding: 30px 80px;
+  color: #303030;
+}
+.questions p {
+  font-size: 18px;
+  color: #303030;
+  margin-top: 40px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px 20px;
+}
+.links a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.links li {
+  list-style: none;
+  margin: 20px 2px;
+}
+.lower p {
+  color: #303030;
+}
